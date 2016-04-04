@@ -42,3 +42,12 @@ npm test
 
 *注意: React Storybook 需要 npm v3,如果npm install需要升级npm,清空node_modules以后重新安装*
 
+### 开发方式
+
+开发时需要确保程序正确运行状态下进行, 简单而言, 需要在具体输入代码前做好如下准备
+
+* 运行meteor, 在chrome里打开console观看报错信息
+* 启动实时测试模式 `npm run test-watch`,观看新的报错信息
+* 如果在编写UI组件,则需要运行storybook, `npm run storybook`
+* 每一次提交时确保上述3个方面的运行都不出问题
+
