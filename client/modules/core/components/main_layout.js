@@ -3,10 +3,12 @@ import Navigation from './navigation';
 
 const Layout = ({content = () => null }) => (
   <div>
-    <header>
-    <h1>Mantra Voice</h1>
-    <Navigation />
-    </header>
+      <header className="header">
+          <h1 className="site-title"><a href="/">
+              <img alt="Logo" src="/logo.svg" width="150" />
+          </a></h1>
+          <Navigation />
+      </header>
 
     <div>
     {content()}
