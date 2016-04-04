@@ -3,10 +3,9 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.css?$/,
-        loaders: [ 'style', 'raw' ],
-        include: path.resolve(__dirname, '../')
-      }
+        test: /\.scss$/,
+        loaders: [ 'style', 'raw','sass' ],
+        include: path.resolve(__dirname, '../')      }
     ]
   }
 };
