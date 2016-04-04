@@ -5,12 +5,12 @@ import MainLayout from '../main_layout';
 import Header from '../header';
 
 describe('core.components.main_layout', () => {
-  it('should contain header', () => {
+  it('包含组件: 应该包含一个Header组件', () => {
     const el = shallow(<MainLayout />);
     expect(el.contains(<Header />)).to.be.equal(true);
   });
 
-  it('should render childrens', () => {
+  it('应该渲染子节点', () => {
     const Comp = () => (<p>Hello</p>);
     const el = shallow(
       <MainLayout content={() => (<Comp />)}/>
