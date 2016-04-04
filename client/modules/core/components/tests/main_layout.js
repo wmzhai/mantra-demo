@@ -2,12 +2,12 @@ const {describe, it} = global;
 import {expect} from 'chai';
 import {shallow} from 'enzyme';
 import MainLayout from '../main_layout';
-import Navigation from '../navigation';
+import Header from '../header';
 
 describe('core.components.main_layout', () => {
-  it('should contain navigation', () => {
+  it('should contain header', () => {
     const el = shallow(<MainLayout />);
-    expect(el.contains(<Navigation />)).to.be.equal(true);
+    expect(el.contains(<Header />)).to.be.equal(true);
   });
 
   it('should render childrens', () => {

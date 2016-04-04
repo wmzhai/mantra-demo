@@ -1,15 +1,9 @@
 import React from 'react';
-import Navigation from './navigation';
+import Header from './header';
 
 const Layout = ({content = () => null }) => (
   <div>
-      <header className="header">
-          <h1 className="site-title"><a href="/">
-              <img alt="Logo" src="/logo.svg" width="150" />
-          </a></h1>
-          <Navigation />
-      </header>
-
+    <Header />
     <div>
     {content()}
     </div>
