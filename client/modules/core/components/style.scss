@@ -1,3 +1,8 @@
+
+//导入 normalize and base, 前缀下划线和后缀.scss可以省略
+@import 'sass/normalize';
+@import "sass/base";
+
 body {
   font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif;
   padding: 10px 20px;
