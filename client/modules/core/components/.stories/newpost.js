@@ -8,7 +8,7 @@ storiesOf('core.NewPost', module)
       <NewPost create={action('create post')} />
     );
   })
-  .add('with error', () => {
+  .add('with 错误', () => {
     const error = 'This is the error message';
     return (
       <NewPost error={error} create={action('create post')} />
