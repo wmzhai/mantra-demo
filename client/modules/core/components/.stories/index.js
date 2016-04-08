@@ -1,4 +1,4 @@
-import '../style.scss';
+import '../sass/app.scss';
 import './post';
 import './postlist';
 import './newpost';

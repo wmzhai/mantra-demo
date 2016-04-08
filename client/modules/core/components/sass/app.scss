@@ -1,6 +1,6 @@
 //导入 normalize and base, 前缀下划线和后缀.scss可以省略
-@import 'sass/normalize';
-@import "sass/base";
+@import 'normalize';
+@import "base";
 
 html {
   box-sizing: border-box;
